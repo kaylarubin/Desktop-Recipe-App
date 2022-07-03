@@ -11,7 +11,7 @@ function createWindow() {
       enableRemoteModule: true,
     },
   });
-
+  win.webContents.openDevTools({ mode: "detach" });
   win.loadURL("http://localhost:3000");
 }
 
