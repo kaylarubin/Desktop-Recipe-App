@@ -1,0 +1,54 @@
+.Recipe__button-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+
+.recipe-container {
+  padding-bottom: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  min-width: 60vw;
+  background-color: white;
+}
+
+.recipe-container:last-child {
+  border-bottom: none;
+}
+
+.recipe-name {
+  font-size: 1.2rem;
+  font-family: Roboto-Regular;
+  margin-bottom: 1rem;
+  color: rgb(255 255 255);
+}
+
+.header-background{
+  background-color: #2a2a2e;
+  border-color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.2rem 1rem;
+}
+
+.Recipe__recipe-row-container{
+  margin: 1rem;
+}
+
+.recipe-row {
+  margin: 0.5rem 0rem;
+}
+
+.recipe-label {
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+}
+
+.recipe-instructions {
+  white-space: pre-wrap;
+  font-family: Roboto-Light;
+}
+
+.recipe-span {
+  font-family: Roboto-Light;
+}

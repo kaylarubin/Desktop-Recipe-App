@@ -1,0 +1,27 @@
+{
+  "recipes": [
+    {
+      "id": "53a6cc85-479e-4401-be0f-bbeea1781ab1",
+      "name": "Plain Chicken",
+      "cookTime": "1:45",
+      "servings": 3,
+      "instructions": "1. Put salt on chicken\n2. Put chicken in oven\n3. Eat Chicken",
+      "ingredients":[
+          {"item": "Chicken", "amount": "2 Pounds"},
+          {"item": "Salt", "amount": "1 Tbs"}
+       ]
+    },
+
+    {
+      "id": "99c954be-4c7e-422f-8136-9d20ac49ea05",
+      "name": "Plain Pork",
+      "cookTime": "0:45",
+      "servings": 5,
+      "instructions": "1. Put paprika on pork\n2. Put pork in oven\n3. Eat pork",
+      "ingredients":[
+        {"item": "Pork", "amount": "3 Pounds"},
+        {"item": "Paprika", "amount": "1 Tbs"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 0.2em 1em;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(80%);
+}
+
+.btn--primary {
+  color: white;
+  background-color: rgb(52, 151, 233);
+}
+
+.btn--danger {
+  color: white;
+  background-color: rgb(202, 69, 69);
+}

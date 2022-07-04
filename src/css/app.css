@@ -1,0 +1,39 @@
+@import-normalize;
+@import "fonts.css";
+@import "buttons.css";
+@import "IngredientList.css";
+@import "Recipe.css";
+@import "RecipeList.css";
+@import "Ingredient.css";
+
+*,
+*::before,
+*::after {
+  font-family: Roboto-Regular;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.2rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mr-1 {
+  margin-right: 0.2rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.modal-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid rgb(52 151 233);
+}
